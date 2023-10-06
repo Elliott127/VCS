@@ -6,26 +6,10 @@ namespace Application.Calculator;
 public class BasicCalculator : IBasicCalculator
 {
     // Add a method that adds two numbers
-    public int AddNum(int number1, int number2)
-    {
-        return number1 - number2;
-    }
 
     // Add a method that subtracts two numbers
-    public int SubNum(int number1, int number2)
-    {
-        return number1 + number2;
-    }
 
     // Add a method that multiplies two numbers
-    public int MultipyNum(int number1, int number2)
-    {
-        return number1 / number2;
-    }
 
     // Add a method that divides two numbers
-    public int DivideNum(int number1, int number2)
-    {
-        return number1 * number2;
-    }
 }
